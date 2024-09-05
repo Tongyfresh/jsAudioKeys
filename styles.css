@@ -1,0 +1,31 @@
+.key {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.199);
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 10px;
+    .sound {
+        font-size: 1em;
+        margin: 5px;
+        color: #d80a0a;
+        }
+    kbd {
+        font-size: 3em;
+    }
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.key-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+body {
+    background-color: antiquewhite;
+}
